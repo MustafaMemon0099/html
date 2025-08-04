@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Instagram Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<link rel="stylesheet" href="Style.css">
+<body>
+
+  <div class="container" id="form-container">
+    <div class="login-box">
+      <img src="https://th.bing.com/th/id/OIP.vDOq6L5PbY7XrDGK5TjNLAHaC7?w=318&h=138&c=7&r=0&o=5&dpr=1.3&pid=1.7 "alt="Instagram Logo" class="logo">
+      <form id="prankForm">
+        <input type="text" placeholder="Phone number, username, or email" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Log In</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="hacked-message" id="hackedMsg">
+    <h2>YOUR INSTAGRAM IS HACKED YOUR PIC AND VIDEOS ARE LEAKED IN GALLERY❗❗</h2>
+    <h1> HACKED ALERT HACKED ALERT</h1>
+    
+  </div>
+
+  <script>
+    const form = document.getElementById("prankForm");
+    const container = document.getElementById("form-container");
+    const hackedMsg = document.getElementById("hackedMsg");
+
+    form.addEventListener("submit", function(e) {
+      e.preventDefault(); // prevent real submission
+      container.style.display = "none";
+      hackedMsg.style.display = "flex";
+    });
+  </script>
+
+</body>
+</html>

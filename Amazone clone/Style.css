@@ -1,0 +1,237 @@
+ *{
+  margin: 0;
+  border: border-box;
+
+}
+
+.navbar{
+  background-color: black;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  position:sticky;
+  top: 0px;
+  z-index: 100;
+}
+
+.navlogo{
+  height: 50px;
+  width: 100px;
+  
+}
+
+.logo{
+  height: 50px;
+  width: 100px;
+  background-image: url(https://hipfonts.com/wp-content/uploads/2022/11/amazon-logo-cover.png);
+  background-size: cover;
+  
+}
+
+.border{
+  border: 2px solid transparent;
+ 
+}
+.border:hover {
+  border: 2px solid white;
+  border-radius: 2px;
+}
+/** box 2 **/
+.nav-address{
+  color: aliceblue;
+  margin-top: 13px;
+  margin-left: 30px;
+  margin-bottom: 3px ;
+  
+}
+
+.Delivered{
+  color: #CCCCCC;
+  font-size: 12px;
+}
+
+.location-icon{
+   color: #ffffff;
+   font-size: 16px;
+}
+
+.nav-address{
+  border: 2px solid transparent;
+}
+/** box 3 **/
+.nav-search{
+  display: flex;
+  height: 30px;
+  width: 620px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #febd68;
+  border-radius: 5px;
+  justify-content: space-evenly;
+  
+}
+
+.nav-search:hover{
+  border: 2px solid orange ;
+}
+
+.searc-icon{
+  color: white;
+  width: 40px;
+  color: black;
+  margin-top: 5px;
+}
+
+.search-bar{
+  width: 540px;
+  font-size: 1rem;
+  border: none;
+}
+
+.option{
+   background-color:#f3f3f3 ;
+   width: 50px;
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 5px;
+   border: none;
+}
+
+.accounts{
+  color: white;
+  
+}
+
+
+.list{
+  display: block;
+  font-size: 19px;
+  font-weight: 700px;
+}
+
+span{
+  font-size: 0.7rem;
+}
+
+.returns{
+  color: white;
+  
+}
+
+
+.orders{
+  display: block;
+  font-size: 19px;
+  font-weight: 700px;
+}
+
+span{
+  font-size: 0.7rem;
+}
+
+.cart i{
+  font-size: 30px;
+  color: white;
+  
+ 
+}
+
+.cart-text{
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  margin-right: 3px;
+}
+/** second compartment **/
+.second-part{
+  display: flex;
+  background-color: rgb(20, 37, 70);
+  height: 40px;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Rigistry p {
+  display: inline;
+  margin-left: 16px;
+}
+
+.Rigistry{
+  width: 70%;
+  font-size: 0.85rem;
+  
+}
+
+.Deals{
+  font-size: 0.9rem;
+  font-weight: 900;
+  
+}
+
+/** hero sec **/
+
+.hero-sec{
+  background-image: url(https://m.media-amazon.com/images/I/619geyiQI5L._SX3000_.jpg);
+  height:350px;
+  background-size: cover;
+  position: relative;
+}
+
+.Shop-sec{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgb(189, 192, 132);
+}
+.box{
+  border: 2px solid rgb(0, 0, 0);
+  height: 400px;
+  background-color: #ffffff;
+  width: 23%;
+ margin-top: 15px;
+ padding: 20px 0 15PX;
+ 
+}
+/** box1**/
+
+ .box-img{
+ background-size: cover;
+ height: 300px;
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+ 
+ }
+
+ .box-content{
+  margin-left: 1rem;
+  margin-right: 1rem;
+ }
+
+ .box-content p{
+  color: rgb(77, 164, 135);
+  font-size: large;
+ }
+
+ .Footer{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: #CCCCCC;
+  margin: 0;
+ }
+
+ .box {
+  transition: all 0.3s ease-in-out;
+}
+
+.box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+ 
